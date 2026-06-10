@@ -1,15 +1,19 @@
-programa {
+programa {  // Davi - Kauã - Kaleb
   funcao inicio() {
+
+    //variaveis
     cadeia nome 
     inteiro idade 
     real media, nota1, nota2, nota3
 
+    // informações necessarias para o cadastro
     escreva("digite o seu nome: ")
     leia(nome)
 
     escreva("digite sua idade: ")
     leia(idade)
 
+    
     se(nome == nome e idade == idade){
       escreva("\n-------------Cadastro concluido!--------------\n")
     }
@@ -25,6 +29,7 @@ programa {
 
     media = (nota1 + nota2 + nota3) /3
 
+    // informações finais
     se(media <7){
       escreva("--------------------------------------------------------------------------")
     escreva("\nnome do aluno: ",nome)
