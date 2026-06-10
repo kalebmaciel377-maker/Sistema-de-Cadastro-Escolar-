@@ -1,12 +1,12 @@
-programa {  // Davi - Kauã - Kaleb
+programa {  // Davi - Kauã - Kaleb  10/06/2026
   funcao inicio() {
 
-    //variaveis
+    //variaveis (RESPONSAVEL KALEB)
     cadeia nome 
     inteiro idade 
     real media, nota1, nota2, nota3
 
-    // informações necessarias para o cadastro
+    // informações necessarias para o cadastro (RESPONSAVEL DAVI)
     escreva("digite o seu nome: ")
     leia(nome)
 
@@ -29,7 +29,7 @@ programa {  // Davi - Kauã - Kaleb
 
     media = (nota1 + nota2 + nota3) /3
 
-    // informações finais
+    // informações finais (RESPONSAVEL KAUÃ)
     se(media <7){
       escreva("--------------------------------------------------------------------------")
     escreva("\nnome do aluno: ",nome)
