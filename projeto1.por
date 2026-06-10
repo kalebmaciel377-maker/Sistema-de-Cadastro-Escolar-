@@ -10,33 +10,43 @@ programa {
     escreva("digite sua idade: ")
     leia(idade)
 
-	se(nome == nome e idade == idade){
+    se(nome == nome e idade == idade){
       escreva("\n-------------Cadastro concluido!--------------\n")
     }
 
     escreva("\ndigite a sua primeira nota: ")
-     leia(nota1)
+    leia(nota1)
 
     escreva("digite a sua segunda nota: ")
-      leia(nota2)
+    leia(nota2)
 
     escreva("digite a sua terceira nota: ")
-     leia(nota3)
+    leia(nota3)
 
     media = (nota1 + nota2 + nota3) /3
 
-    escreva("\nA média final do aluno ", nome, " foi: ", media)
+    se(media <7){
+      escreva("--------------------------------------------------------------------------")
+    escreva("\nnome do aluno: ",nome)
+    escreva("\nidade do aluno: ",idade)
+    escreva("\nprimeira nota do aluno: ",nota1)
+    escreva("\nsegunda nota do aluno: ",nota2)
+    escreva("\nterceira nota do aluno: ",nota3) 
+     escreva("\nO aluno esta de recuperação por não ter atingido a media necessaria! ")
+    }senao{
+      escreva("----------------------------------------------------------------------------")
+    escreva("\nnome do aluno: ",nome)
+    escreva("\nidade do aluno: ",idade)
+    escreva("\nprimeira nota do aluno: ",nota1)
+    escreva("\nsegunda nota do aluno: ",nota2)
+    escreva("\nterceira nota do aluno: ",nota3)
+    escreva("\no aluno foi aprovado")
+
+    }
+
+    
+ 
+   
+
   }
 }
-
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 207; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
